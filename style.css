@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.overall{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar{
+    height: 100vh;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.overall .body .body_main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.overall .body .body_main .announceTrend{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
