@@ -2,14 +2,17 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .overall{
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
 
-.sidebar{
-    height: 100vh;
-}
+
 
 .body{
     display: grid;
@@ -25,3 +28,130 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
+/* SIDEBAR */
+
+.sidebar{
+    height: 100vh;
+    background-color: pink;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.logo h2{
+    display: inline-block;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.side_mid img, .side_down img{
+    width: 1.5rem;
+}
+
+.side_mid{
+    margin-bottom: 4rem;
+}
+
+.side_mid a, .side_down a{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 0.5rem;
+}
+
+/* HEADER */
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header .lower {
+    background-color: aqua;
+}
+
+.header .upper{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.upper form img{
+    width: 2rem;
+}
+
+.upper form{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.upper form input{
+    width:30rem;
+}
+
+.topR .avatar{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.notif {
+    width: 2rem;
+}
+
+.topR{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.topR h3{
+    margin-left: 1rem;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.lower img{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.hLowL{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    gap: 1rem;
+}
+
+.hLowL h2{
+    margin-top: 0;
+}
+
+.hLowL h4{
+    margin-bottom: 0;
+}
+
+.hLowR .btn {
+    color: black;
+    background-color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.hLowR {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
