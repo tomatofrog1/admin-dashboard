@@ -16,12 +16,12 @@ a{
 
 .body{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 10rem 3fr;
 }
 
 .overall .body .body_main{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
 }
 
 .overall .body .body_main .announceTrend{
@@ -34,6 +34,14 @@ a{
 .sidebar{
     height: 100vh;
     background-color: pink;
+}
+
+.sidebar a{
+    margin: 1rem 1rem;
+}
+
+.sidebar h4{
+    margin: 0 0 0 0.7rem;
 }
 
 .logo img{
@@ -72,7 +80,7 @@ a{
 }
 
 .header .lower {
-    background-color: aqua;
+    background-color: aquamarine;
 }
 
 .header .upper{
@@ -82,7 +90,7 @@ a{
 }
 
 .upper form img{
-    width: 2rem;
+    width: 1.4rem;
 }
 
 .upper form{
@@ -95,6 +103,7 @@ a{
 
 .upper form input{
     width:30rem;
+    border-radius: 1rem;
 }
 
 .topR .avatar{
@@ -154,4 +163,103 @@ a{
     align-items: center;
     gap: 1rem;
 }
+
+/* ANNOUNCEMENTS */
+.announcement_wrapper{
+    background-color: beige;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.announce:nth-child(2){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.announce p {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.announce h5{
+    margin-bottom: 0;
+}
+
+.announce {
+    width: 80%;
+}
+
+/* TRENDING */
+
+.trend img{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.trend_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: blanchedalmond;
+    width:60%;
+    align-items: start;
+    border-radius: 1rem;
+    gap: 5px;
+    padding: 1rem;
+}
+
+.trend{
+    display: flex;
+    align-items: center;
+    
+}
+
+.trend p{
+    margin: 0 0 0 1rem;
+    font-size: 0.9rem;
+}
+
+/* PROJECTS */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .proj_contents .project{
+    background-color: cornsilk;
+    height: 11rem;
+    border-radius: 1rem;
+}
+
+.projects .proj_contents .project .proj_buttons{
+    float: right;
+    margin: 3rem 2rem 0 0;
+}
+
+.projects .proj_contents .project .proj_buttons img{
+    width: 1.5rem;
+}
+
+.projects .proj_contents .project p, .projects h4{
+    margin: 1rem 0 0 1rem;
+}
+
+.projects .proj_contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+    align-self: center;
+    gap: 1rem;
+    height: 30rem;
+}
+
+.projects h3{
+    margin-left: 3rem;
+}
+
 
