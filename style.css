@@ -164,6 +164,11 @@ a{
     gap: 1rem;
 }
 
+.hLowR .btn:hover{
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+
 /* ANNOUNCEMENTS */
 .announcement_wrapper{
     background-color: beige;
@@ -243,6 +248,10 @@ a{
 .projects .proj_contents .project .proj_buttons img{
     width: 1.5rem;
 }
+.projects .proj_contents .project .proj_buttons img:hover{
+    scale: 1.2;
+    transition: 0.2s ease;
+}
 
 .projects .proj_contents .project p, .projects h4{
     margin: 1rem 0 0 1rem;
@@ -260,6 +269,14 @@ a{
 
 .projects h3{
     margin-left: 3rem;
+}
+
+.project:hover{
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    scale: 1.005;
+    transition: 0.3s ease;
 }
 
 
